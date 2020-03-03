@@ -34,7 +34,6 @@
     }
     
     .glitch {
-    	position: relative;
     	color: white;
     	font-size: 4em;
     	letter-spacing: .5em;
@@ -46,9 +45,10 @@
     }
     h1 {
       text-shadow:1px 1px 0px #f0f, -1px -1px 0 #0ff;
-      font-size:800%;
+      font-size:100%;
       text-align:center;
       text-shadow:2px 3px 0px #f0f, -2px -2px 0 #0ff;
+      word-wrap: break-word;
     }
     .same-space {
       height: 80px;
@@ -74,6 +74,9 @@
             <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#topics">Topics</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#callforpapers">Call for Papers</a>
           </li>
           <li class="nav-item">
@@ -86,7 +89,7 @@
 
   <header class="bg-primary text-white header-bg">
     <div class="container text-center">
-      <h1 class="glitch" data-text="glitch">MEDIATE</h1>
+      <h1 class="glitch">MEDIATE</h1>
   		<h3 class="sub">ICWSM-2020 WORKSHOP</h3>
     </div>
   </header>
@@ -96,29 +99,47 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Overview</h2>
-          <p class="lead">The ICWSM News Media and Computational Journalism Workshop, or MEDIATE aims to bring together media practitioners and technologists in order to discuss problems and opportunities created by the novel means of information diffusion online. Special emphasis will be given to cross-fields interactions in order to assess the situation from the perspective of various disciplines and establish a list of recommendations and future challenges.</p>
-          <p><b>Political Misinformation</b> 
-          Misinformation (and its variants) is regarded as a problem that has reached new heights in the current information sphere, partly due to the ease, the diversity of mediums, the reach, and the consequences of information dissemination. Misinformation can broadly be construed as information that is inaccurate or incomplete in some way, and it has heavily permeated our day-to-day news consumption. In this workshop, rather than attempting to precisely define <i>misinformation</i>, we will consider its broadly accepted multi-faceted nature and its manifestations beyond ``fake news''. A particular focus will be on (intentional or unintentional)
-self-misinformation (i.e., how well people consume information, whether it is true or fake). Examples of particular interest include phenomena such as filter bubbles, echo chambers, and polarisation.   
-For any given topic, we plan to discuss (a) how dire it is; (b) how measurable or controllable it is; and (c) the effect of time on the issue at hand. 
-
-          <p><b>Scientific Misinformation</b>
-Deficits in scientific literacy are endemic in many societies, which is why furthering the public understanding of science is important to many scientists.
-There are many examples in which the public has been deceived by pseudo-scientific news like the anti-vaccination movement and, very recently, the coronavirus remedies quackery.  
-Scientific news is often based on findings reported in scientific journals, books, and talks, which are highly specialized.
-The task of the journalist is then to translate these findings to make them understandable to a non-specialized, broad audience.
-By necessity, this involves negotiating several trade-offs between desirable goals that sometimes enter into conflict, including appealing to the public and using accessible language, while at the same time accurately representing research findings, methods, and limitations.
-Based on the above, we will discuss what are these trade-offs for scientific journalists and how can we overcome them in order to effectively communicate science via news.</p>
-
-          <p><b>Social Initiatives against Misinformation</b>
-          Journalism has undergone significant change in the face of the current online-media-dominated information sphere. In parallel to discussing scientific progress on the various forms of misinformation, a focus of this workshop is to gain insight into the practitioner's perspective. What do news outlets regard as some of the greatest challenges of the current information sphere (e.g., is misinformation one of them)? How have they experienced the shift from <i>traditional journalism</i> to <i>computational journalism</i>? Beyond personalization and moderation of user engagement, are there any concrete examples of how they have benefited from scientific innovation in their ability to diffuse information? Does the news ecosystem need to be redesigned, and if so, who will play a key role here (e.g., regulators, sociologists, educators, scientists, etc)?
-          </p>
+          <p class="lead">The ICWSM-2020 Workshop MEDIATE aims to bring together media practitioners and technologists to discuss the new obstacles and opportunities that are established by the modern era of information diffusion. Particular emphasis will be given to interdisciplinary interactions that will enable participants to assess the current consensus and outline future challenges.</p>
+          <p class="lead">The theme for MEDIATE-2020 is <span style="font-weight:bold">misinformation</span>, i.e., inaccurate or incomplete information that heavily permeats our day-to-day news consumption.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="callforpapers" class="bg-light">
+  <section id="topics" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Topics</h2>
+          <p>Topics of interest include, but are not limited to:</p>
+          <ul>
+            <li><b>Political Misinformation</b>
+              <ul>
+                <li>Traditional phenomena in political misinformation such as filter bubbles, echo chambers, and polarisation</li>
+                <li>Intentional or unintentional self-misinformation, i.e., how well people consume information, whether it is authentic or fake </li>
+                <li>How dire, measurable or controllable are these phenomena and what is the effect of time on them</li>
+              </ul>
+            </li> 
+            <li><b>Scientific Misinformation</b>
+              <ul>
+                <li>Studies on pseudo-scientific news that have been deceived the public (e.g., the anti-vaccination movement or the coronavirus remedies quackery)</li>
+                <li>The journalists' trade-off between using an appealing and accessible language, and accurately reporting research findings.</li>
+                <li>Methodologies for effective communication of science to a non-specialized, broad audience via news</li>
+              </ul>
+              
+      
+            <li><b>Social Initiatives against Misinformation</b>
+              Journalism has undergone significant change in the face of the current online-media-dominated information sphere. In parallel to discussing scientific progress on the various forms of misinformation, a focus of this workshop is to gain insight into the practitioner's perspective. What do news outlets regard as some of the greatest challenges of the current information sphere (e.g., is misinformation one of them)? How have they experienced the shift from <i>traditional journalism</i> to <i>computational journalism</i>? Beyond personalization and moderation of user engagement, are there any concrete examples of how they have benefited from scientific innovation in their ability to diffuse information? Does the news ecosystem need to be redesigned, and if so, who will play a key role here (e.g., regulators, sociologists, educators, scientists, etc)?
+            </li>
+
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="callforpapers" >
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -135,7 +156,7 @@ Based on the above, we will discuss what are these trade-offs for scientific jou
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="bg-light">
     <div class="container">
         <h2 class="mb-5">Organizers</h2>
         <div class="row">
